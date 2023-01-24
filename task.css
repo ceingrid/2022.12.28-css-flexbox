@@ -1,0 +1,46 @@
+.container {
+    background-color: lightgrey;
+    height: 600px;
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.container-1 {
+    flex-wrap:wrap;
+}
+.container-1 .child {
+    height: 200px;
+}
+
+.container-1 .child:nth-child(1),
+.container-1 .child:nth-child(3),
+.container-1 .child:nth-child(4),
+.container-1 .child:nth-child(5) {
+    width: 200px;
+}
+
+.container-1 .child:nth-child(2),
+.container-1 .child:nth-child(6) {
+    width: 400px;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.orange {
+    background-color: orange;
+}
+
